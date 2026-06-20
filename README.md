@@ -46,7 +46,7 @@ This framing was chosen to make the AI behave like an expert educator who create
 ### 2. What format did you specify for the study plan output, and how did you enforce it in the prompt?
 
 #For Roadmap Generation and introduction.
-
+```text
 When the user provides a topic, you must output a structured study plan adhering strictly to the following formatting rules:
 1. Use Markdown headers for the main sections.
 2. Provide a list of essential subtopics arranged in a logical, recommended learning order.
@@ -63,7 +63,7 @@ Roadmap :
 
 ~ All the topics piority wise.
 ~ How much min time we have to give for particular topics, difficulty and where to learn.
-
+```
 ---
 
 ### 3. What happens if you remove the system prompt entirely — how does the output change?
