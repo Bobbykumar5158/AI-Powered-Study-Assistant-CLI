@@ -24,7 +24,7 @@ An AI-based CLI Study Assistant built using Python and the Gemini API.
 
 # Project Structure
 
-```bash
+```text
 AI-Powered-Study-Assistant-CLI/
 │
 ├── assistant.py
@@ -76,19 +76,19 @@ Without the system prompt, the AI generates a much less structured response and 
 
 ## 1. Clone Repository
 
-```bash
+```text
 git clone https://github.com/Bobbykumar5158/AI-Powered-Study-Assistant-CLI
 ```
 
 ## 2. Move Into Project Folder
 
-```bash
+```text
 cd AI-Powered-Study-Assistant-CLI
 ```
 
 ## 3. Install Required Libraries
 
-```bash
+```text
 pip install -r requirements.txt
 ```
 
@@ -105,7 +105,7 @@ GEMINI_API_KEY=your_api_key_here
 
 # Run the Program
 
-```bash
+```text
 python assistant.py
 ```
 
@@ -123,7 +123,7 @@ python assistant.py
 
 # Working
 
-```bash
+```text
 ================================================================================
 ************************ AI-Powered-Study-Assistant-CLI ************************
 ================================================================================
@@ -329,8 +329,3 @@ TOTAL QUES ASKED : 12
 ================================================================================
 ```
 ---
-
-
-# Author
-
-Developed using Python and Gemini AI.
