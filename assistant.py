@@ -69,7 +69,7 @@ while not (user.lower() in ["exit","quit"]):
         print("\n","="*80)
       
     except APIError as e:
-        # print("During the process the following error has occured.\n",e)
+        print("During the process the following error has occured.",)
         print(f"Caught a API Error!")
         print(f"  - Status Code: {e.code}")
         print(f"  - Message: {e.message}")
